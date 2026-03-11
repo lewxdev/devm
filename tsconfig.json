@@ -1,0 +1,19 @@
+// see: https://nodejs.org/docs/v25.8.1/api/typescript.html#type-stripping
+{
+  "compilerOptions": {
+    "lib": [
+      "es2025"
+    ],
+    "module": "nodenext",
+    "rewriteRelativeImportExtensions": true,
+    "erasableSyntaxOnly": true,
+    "verbatimModuleSyntax": true,
+    "noEmit": true,
+    "strict": true,
+    "plugins": [
+      {
+        "name": "@effect/language-service"
+      }
+    ]
+  }
+}

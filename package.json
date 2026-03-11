@@ -1,0 +1,60 @@
+{
+  "name": "devrm",
+  "version": "0.1.0",
+  "description": "A toolchain version manager using devEngines to install and auto-switch runtimes and package managers.",
+  "keywords": [
+    "toolchain-manager",
+    "version-manager",
+    "runtime-manager",
+    "node-version-manager",
+    "devengines",
+    "dev-engines",
+    "volta-alternative",
+    "nvm-alternative",
+    "node",
+    "nodejs",
+    "bun",
+    "deno",
+    "npm",
+    "yarn",
+    "pnpm"
+  ],
+  "homepage": "https://github.com/lewxdev/devrm#readme",
+  "bugs": {
+    "url": "https://github.com/lewxdev/devrm/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "J. Lewis",
+    "email": "6710419+lewxdev@users.noreply.github.com",
+    "url": "https://github.com/lewxdev"
+  },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/lewxdev"
+  },
+  "files": [],
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lewxdev/devrm.git"
+  },
+  "dependencies": {
+    "@effect/platform-node": "4.0.0-beta.30",
+    "effect": "4.0.0-beta.30"
+  },
+  "devDependencies": {
+    "@effect/language-service": "^0.79.0",
+    "typescript": "6.0.1-rc"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "npm",
+      "version": "11.11.0"
+    },
+    "runtime": {
+      "name": "node",
+      "version": "25.8.1"
+    }
+  }
+}
